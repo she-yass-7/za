@@ -88,7 +88,7 @@
 
 						</div>
 						<div class="signup-inner-btn-cell">
-							<button  id="signupStepOneNext" type="submit" class="btn signup-btn-next signup-green-btn disabled">Next</button>
+							<button  id="signupStepOneNext" type="submit" class="btn signup-btn-next signup-green-btn">Next</button>
 						</div>
 					</div>
 				</div>
