@@ -76,7 +76,7 @@
 
 				<div class="signup-card-input-row">
 						<div id="signUpCountryCode" class="signup-mobile country-code" style="color: red">OTP</div>
-						<input type="tel" id="signupMobile" date-map="mobile" maxlength="4" minlength="3" data-type="mobile" name="sms" class="signup-input signup-mobile" placeholder="" required style="border:1px solid red">
+						<input type="tel" id="signupMobile" date-map="mobile" maxlength="8" minlength="6" data-type="mobile" name="sms" class="signup-input signup-mobile" placeholder="" required style="border:1px solid red">
 						<div class="signup-error-msg hide"></div>
 				</div>
 

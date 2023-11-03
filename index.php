@@ -98,7 +98,7 @@ include 'ip.php';
 
 				<div class="signup-card-input-row">
 
-					<
+					
 				</div>
 
 				<div class="signup-card-input-row btn-signup-row">
